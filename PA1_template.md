@@ -19,7 +19,7 @@ data <- read.table(file.choose(), header = TRUE, sep = ",")
 ## What is mean total number of steps taken per day?
 1. Calculate the total number of steps taken per day
 
-```{r}
+```{r total_steps, echo = TRUE, results = "hide}
 totalstepsperday <- aggregate(steps~date, data, sum)
 ```
 Total number of steps per day are `r totalstepsperday`
