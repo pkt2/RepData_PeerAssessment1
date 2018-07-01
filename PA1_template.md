@@ -11,7 +11,8 @@ opts_chunk$set(echo = TRUE, results = "asis)
 ```
 
 ## Loading and preprocessing the data
-``{r}
+
+```{r}
 data <- read.table(file.choose(), header = TRUE, sep = ",")
 ```
 
